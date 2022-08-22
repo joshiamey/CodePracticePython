@@ -18,10 +18,6 @@ Explanation: Both "2*3+2" and "2+3*2" evaluate to 8.
 (Time limit exceeded solution)
 """
 
-
-from operator import add
-
-
 ops = ['','+','-','*']
 
 def evaluateExpr(expr:str,target):
